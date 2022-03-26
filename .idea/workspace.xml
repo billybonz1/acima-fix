@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5d2e1bc0-9b5a-41dd-8cf7-45953d4cb719" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentynineteen/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/twentynineteen/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/twentynineteen/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/twentynineteen/functions.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="26etjqeA8XyKKcwoYN6gNSzvJAr" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\projects\acima-fix" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5d2e1bc0-9b5a-41dd-8cf7-45953d4cb719" name="Default Changelist" comment="" />
+      <created>1647796017399</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1647796017399</updated>
+      <workItem from="1647796018667" duration="37522000" />
+      <workItem from="1647965178915" duration="3202000" />
+      <workItem from="1648040352188" duration="8386000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="275" y="18" key="#Deployment" timestamp="1648216356678">
+      <screen x="0" y="0" width="1366" height="720" />
+    </state>
+    <state x="275" y="18" key="#Deployment/0.0.1366.720@0.0.1366.720" timestamp="1648216356678" />
+    <state x="333" y="268" key="#WordPress" timestamp="1648040479052">
+      <screen x="0" y="0" width="1366" height="720" />
+    </state>
+    <state x="333" y="268" key="#WordPress/0.0.1366.720@0.0.1366.720" timestamp="1648040479052" />
+    <state x="463" y="101" key="FileChooserDialogImpl" timestamp="1648040474704">
+      <screen x="0" y="0" width="1366" height="720" />
+    </state>
+    <state x="463" y="101" key="FileChooserDialogImpl/0.0.1366.720@0.0.1366.720" timestamp="1648040474704" />
+    <state x="561" y="258" key="Github.ShareDialog" timestamp="1648040378838">
+      <screen x="0" y="0" width="1366" height="720" />
+    </state>
+    <state x="561" y="258" key="Github.ShareDialog/0.0.1366.720@0.0.1366.720" timestamp="1648040378838" />
+    <state x="440" y="65" key="Github.UntrackedFilesDialog" timestamp="1648040389612">
+      <screen x="0" y="0" width="1366" height="720" />
+    </state>
+    <state x="440" y="65" key="Github.UntrackedFilesDialog/0.0.1366.720@0.0.1366.720" timestamp="1648040389612" />
+    <state x="390" y="93" width="585" height="534" key="find.popup" timestamp="1648042334943">
+      <screen x="0" y="0" width="1366" height="720" />
+    </state>
+    <state x="390" y="93" width="585" height="534" key="find.popup/0.0.1366.720@0.0.1366.720" timestamp="1648042334943" />
+    <state x="500" y="90" key="ftp.server.browser" timestamp="1647796154647">
+      <screen x="0" y="0" width="1366" height="720" />
+    </state>
+    <state x="500" y="90" key="ftp.server.browser/0.0.1366.720@0.0.1366.720" timestamp="1647796154647" />
+  </component>
+  <component name="WordPressConfiguration" enabled="true">
+    <wordpressPath>D:\projects\acima-fix</wordpressPath>
+  </component>
+</project>

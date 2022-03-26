@@ -1,0 +1,7 @@
+.git
+.github
+.vs
+.vscode
+.idea
+debug.log
+wp-errors.log
