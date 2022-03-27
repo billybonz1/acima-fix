@@ -5,6 +5,32 @@
  * @package storefront
  */
 
+
+if(isset($_GET['sift'])){
+//    file_put_contents(dirname(__FILE__)."/test.txt", file_get_contents('php://input'), FILE_APPEND);
+//    exit();
+    $input = file_get_contents('php://input');
+    $json = json_decode($input);
+    if(isset($json->entity) && isset($json->entity->id)){
+        $user_id = (int)explode("_", $json->entity->id)[1];
+        if($json->decision->id === "looks_bad_payment_abuse") {
+            update_user_meta($user_id, "blocked", 1);
+        }else if($json->decision->id === "looks_ok_payment_abuse"){
+            update_user_meta($user_id, "blocked", 0);
+        }
+    }
+    exit();
+}
+
+function redirect_blocked(){
+    $meta = get_user_meta(get_current_user_id(), "blocked");
+    if($meta[0] == "1"){
+        wp_redirect("/blocked/");
+    }
+}
+add_action("woocommerce_before_checkout_form", "redirect_blocked");
+
+
 /**
  * Assign the Storefront version to a var
  */
@@ -164,3 +190,39 @@ function add_fake_error($posted) {
     }
 }
 add_action('woocommerce_after_checkout_validation', 'add_fake_error');
+
+
+// New order status AFTER woo 2.2
+add_action( 'init', 'register_my_new_order_statuses' );
+
+function register_my_new_order_statuses() {
+    register_post_status( 'wc-blocked', array(
+        'label'                     => _x( 'Blocked', 'Order status', 'woocommerce' ),
+        'public'                    => true,
+        'exclude_from_search'       => false,
+        'show_in_admin_all_list'    => true,
+        'show_in_admin_status_list' => true,
+        'label_count'               => _n_noop( 'Blocked <span class="count">(%s)</span>', 'Blocked<span class="count">(%s)</span>', 'woocommerce' )
+    ) );
+}
+
+add_filter( 'wc_order_statuses', 'my_new_wc_order_statuses' );
+
+
+
+
+// Register in wc_order_statuses.
+function my_new_wc_order_statuses( $order_statuses ) {
+    $order_statuses['wc-blocked'] = _x( 'Blocked', 'Order status', 'woocommerce' );
+
+    return $order_statuses;
+}
+
+add_action('woocommerce_order_status_changed','woo_order_status_change_custom');
+function woo_order_status_change_custom($order_id) {
+    $order = new WC_Order( $order_id );
+    $user_id = $order->get_user_id();
+    if($order->get_status() === "blocked" && $user_id > 0){
+        update_user_meta($user_id, "blocked", 1);
+    }
+}

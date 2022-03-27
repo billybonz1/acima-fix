@@ -452,3 +452,10 @@ function init_acima_iframe(){
     ));
     exit();
 }
+
+function add_fake_error($posted) {
+    if ($_POST['confirm-order-flag'] == "1") {
+        wc_add_notice( __( "custom_notice", 'fake_error' ), 'error');
+    }
+}
+add_action('woocommerce_after_checkout_validation', 'add_fake_error');

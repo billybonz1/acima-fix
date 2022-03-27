@@ -20,6 +20,13 @@
 
 <body <?php body_class(); ?>>
 
+<?php
+
+//$meta = get_user_meta(get_current_user_id(), "blocked");
+//echo "<pre>";
+//print_r($meta);
+//echo "</pre>";
+?>
 <?php wp_body_open(); ?>
 
 <?php do_action( 'storefront_before_site' ); ?>

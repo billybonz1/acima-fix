@@ -19,14 +19,20 @@
     <select>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:origin/master" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d2e1bc0-9b5a-41dd-8cf7-45953d4cb719" name="Default Changelist" comment="">
+    <list default="true" id="5d2e1bc0-9b5a-41dd-8cf7-45953d4cb719" name="Default Changelist" comment="Fermiac plugin">
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/storefront/blocked.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/footer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/storefront/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/storefront/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/storefront/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/storefront/header.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/twentynineteen/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/twentynineteen/footer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/twentynineteen/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/twentynineteen/functions.php" afterDir="false" />
     </list>
@@ -59,6 +65,9 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\projects\acima-fix" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\projects\acima-fix" />
     </key>
@@ -75,8 +84,17 @@
       <updated>1647796017399</updated>
       <workItem from="1647796018667" duration="37522000" />
       <workItem from="1647965178915" duration="3202000" />
-      <workItem from="1648040352188" duration="8386000" />
+      <workItem from="1648040352188" duration="90239000" />
+      <workItem from="1648386525934" duration="1753000" />
     </task>
+    <task id="LOCAL-00001" summary="Fermiac plugin">
+      <created>1648292664317</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1648292664318</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -93,7 +111,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/master" />
+                        <option value="master" />
                       </list>
                     </value>
                   </entry>
@@ -104,12 +122,17 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Fermiac plugin" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fermiac plugin" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="275" y="18" key="#Deployment" timestamp="1648216356678">
+    <state x="275" y="18" key="#Deployment" timestamp="1648304388518">
       <screen x="0" y="0" width="1366" height="720" />
     </state>
-    <state x="275" y="18" key="#Deployment/0.0.1366.720@0.0.1366.720" timestamp="1648216356678" />
+    <state x="275" y="18" key="#Deployment/0.0.1366.720@0.0.1366.720" timestamp="1648304388518" />
     <state x="333" y="268" key="#WordPress" timestamp="1648040479052">
       <screen x="0" y="0" width="1366" height="720" />
     </state>
@@ -134,6 +157,10 @@
       <screen x="0" y="0" width="1366" height="720" />
     </state>
     <state x="500" y="90" key="ftp.server.browser/0.0.1366.720@0.0.1366.720" timestamp="1647796154647" />
+    <state x="339" y="160" key="run.anything.popup" timestamp="1648309368225">
+      <screen x="0" y="0" width="1366" height="720" />
+    </state>
+    <state x="339" y="160" key="run.anything.popup/0.0.1366.720@0.0.1366.720" timestamp="1648309368225" />
   </component>
   <component name="WordPressConfiguration" enabled="true">
     <wordpressPath>D:\projects\acima-fix</wordpressPath>
